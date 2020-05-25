@@ -20,9 +20,9 @@ HTML, not Hugo in Markdown, and has a few Perl dependencies, could I do similar 
 Python? Well, it works for me :)
 
 ## Usage
-`odp2reveal-hugo.py <input ODP> -o <output folder>` will hopefully spit out a <input base>.md and
+`odp2reveal-hugo.py <input ODP> -o <output folder>` will hopefully spit out `<input base>.md` and
 copies of any referenced images in the ODP document. The output markdown file should be directly
-usable as `'index.md` in reveal-hugo (thus index.md plus images is a page bundle).
+usable as `index.md` in a reveal-hugo page bundle.
 
 Tack on `-h` to get command line syntax, `-v` for verbosity (two levels, repeat `-v`) and override
 the default front matter `-t <title>` and `-s <summary>` text if you wish.
